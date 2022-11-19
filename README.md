@@ -11,6 +11,7 @@ Smart Solutions for railways is designed to reduced the work load of the user an
 - The ticket collectors can scan the QR code to identify the personal details.
 - A GPS module is present in the train to track it. The live status of the journey is updated in the Web app continuously
 - All the booking details of the customers will be stored in the database with a unique ID and they can be retrieved back when the Ticket Collector scans the QR Code.
+- Raise service requests inside the train and show to railway management console.
 
 ### Project Objectives
 
@@ -35,3 +36,4 @@ The objective of this project is to
 - In python code, a Ticket collector can scan the QR code and extract the information from the QR Code i.e., Unique ID. With that Unique ID, data is fetched from the Cloudant DB, if it is not found, then it displays Not a Valid Ticket.
 - Also, the live location of the train will be published to IBM IoT platform using python code
 - The train location can be tracked from a Web Application.
+- Get service requests from passengers(if any) and report to the railway admin console.
